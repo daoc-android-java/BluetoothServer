@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv1"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth Server" />
+
+    <Button
+        android:id="@+id/bConectar"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="conectar"
+        android:text="Aceptar conexión" />
+        
+    <Button
+        android:id="@+id/bDesconectar"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="desconectar"
+        android:text="Desconectar" />
+            
+    <ImageView
+        android:id="@+id/iv1"
+        android:src="@drawable/ic_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
