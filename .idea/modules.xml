@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BtServer.iml" filepath="$PROJECT_DIR$/BtServer.iml" group="BtServer" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="BtServer/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BluetoothServer.iml" filepath="$PROJECT_DIR$/.idea/modules/BluetoothServer.iml" group="BluetoothServer" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="BluetoothServer/app" />
     </modules>
   </component>
 </project>
